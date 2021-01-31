@@ -1,0 +1,702 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: 14px !important;
+    height: 65px;
+}
+
+.dropdown img{
+    width: 5%;
+}
+
+.navbar .dropdown-toggle {
+    margin-right: -260px;
+}
+
+
+.btn-secondary {
+    width: 8rem;
+    font-weight: 700 !important;
+    background-color: #004CE5 !important ;
+}
+
+.navbar-collapse ul {
+    margin-left: 2rem;
+}
+
+hr {
+    margin: 0 !important;
+    height: 0.5px !important;
+    opacity: 0.10;
+}
+
+
+
+/* ------------INPUT PART ------------ */
+.first_line {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 8px;
+    opacity: 0.5;
+}
+
+
+.image-preview {
+    display: none;
+    width: 300px;
+    min-height: 100px;
+    border: 2px solid #dddddd;
+    margin-top: 25px;
+}
+
+.image-preview__preview {
+    width: 100%;
+}
+
+.hero_line {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.hero_line h1 {
+    font-size: 30px;
+    line-height: 20px;
+
+}
+
+.hero_line h2 {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.hero_line img {
+    width: 2.5%;
+}
+
+.space {
+    height: 90px;
+    width: 100%;
+}
+
+.input {
+    padding-bottom: 24px;
+}
+
+.input_png {
+    height: 300px;
+    width: 95%;
+    background-color: #EBC50C;
+}
+
+.input_png img {
+    width: 7%;
+}
+
+.input_inside {
+    height: 270px;
+    background-color: #D3B10B;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    left: 50%;
+    right: 50%;
+    border:dashed;
+    border-color: rgb(143, 143, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-file-input {
+    margin-top: 11px;
+    color: transparent;
+    margin-right: -130px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: url(img/Group\ 14.svg)   '  CHOOSE FILES';
+    color: black;
+    display: inline-block;
+    background: white;
+    border-radius: 4px 0 0 4px;
+    padding: 16.5px 24px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.custom-file-input:focus {
+    outline: none;
+}
+
+.converts {
+    display: none ;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 700;
+    background-color: #004CE5;
+    margin-right: 30px;
+} 
+
+.converts:focus {
+    outline: none;
+}
+
+/* .input_inside .btns {
+    margin-top: 10px;
+    padding: 15px 24px;
+    font-weight: 700;
+    background-color: white;
+    border: transparent;
+    border-radius: 4px 0px 0px 4px;
+} */
+
+.copy_sign {
+    width: 13% !important;
+    margin-right: 6px;
+}
+
+.d-btn {
+    margin-top: 10px;
+    padding: 1rem 0.75rem !important;
+    padding-right: 16px !important;
+    background-color: white !important;
+    border-radius: 0px 4px 4px 0px !important;
+    border-left-color: rgb(175, 175, 175) !important;
+}
+
+.input_inside .dropdown-menu {
+    min-width: 14.3rem !important;
+    transform: translate(-185px, 75px) !important;
+    inset: auto auto -170px 0px !important;
+}
+
+.textt {
+    font-weight: 400;
+    padding-top: 12px;
+    color: white;
+}
+
+.input_inside .dropdown-item {
+    padding: 15px 24px !important;
+}
+
+/* ------------INPUT PART ------------ */
+
+/* ------------CONTENT PART ------------ */
+
+.content {
+    padding: 66px 30px 36px;
+}
+
+.main_text {
+    text-align: -webkit-center;
+    padding: 0px 16px 54px;
+}
+
+.bold_head {
+    font-size: 16;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(33, 33, 33);
+    padding: 12px 0px;
+    margin: 0;
+}
+
+.para {
+    font-size: 16;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 24px;
+    max-width: 100%;
+}
+
+/* ------------CONTENT PART ------------ */
+
+
+/* <!-- ------------TUTORIAL PART------------ --> */
+
+.tut {
+    padding: 90px 30px;
+}
+
+.tut img {
+    height: 180px;
+    width: 300px;
+}
+
+.tut h3 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    padding-bottom: 12px;
+}
+
+.tut ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.tut li {
+    padding-left: 0.5rem;
+}
+
+.tut b {
+    padding-right: 10px;
+}
+
+.tut_steps {
+    line-height: 24px;
+    font-weight: 400;
+    padding: 6px 0px;
+    margin-left: -8px;
+}
+
+/* <!-- ------------TUTORIAL PART------------ --> */
+
+
+
+/* <!-- ------------How To Convert JPG To PDF------------ --> */
+.backgrdcolor {
+    background-color: #F5F5F5;
+    height: fit-content;
+}
+
+.container {
+    width: 100%;
+}
+
+.card_container {
+    padding: 90px 30px;
+}
+
+.cards img {
+    object-fit: cover;
+    width: 100%;
+    height: 162px;
+    padding-bottom: 12px;
+}
+
+.cards h3 {
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cards p {
+    line-height: 24px;
+}
+
+.card_container h2 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 48px;
+}
+
+.cards span {
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-size: 13.5px;
+    color: rgb(117, 117, 117);
+}
+
+.show_more a {
+    color: #0d6efd !important;
+}
+
+
+/* <!-- ------------How To Convert JPG To PDF------------ --> */
+
+
+
+/* <!-- ------------RATING------------ --> */
+
+.rating {
+    padding: 40px 0px;
+}
+
+.rating .fas {
+    color: #9E9E9E;
+}
+
+.rating .fas:hover {
+    color: #FE8000 !important;
+}
+
+/* <!-- ------------RATING------------ --> */
+
+
+/* <!-- ------------SHORTLINKS------------ --> */
+
+.short_links {
+    padding: 48px 40px 24px;
+}
+
+
+/* <!-- ------------SHORTLINKS------------ --> */
+
+
+/* <!-- ------------FIRSTFOOTER------------ --> */
+.first_footer {
+    padding: 32px 24px;
+}
+
+.first_footer h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    padding: 12px 0px;
+}
+
+.smallpdf p {
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(26, 26, 26);
+    padding-top: 24px;
+}
+
+.apps p{
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    padding: 12px 0px;
+    cursor: pointer;
+}
+
+.apps p:hover {
+    color: rgb(117, 117, 117);
+}
+
+.btn-dark {
+    border-radius: 104px !important;
+    font-size: 10px !important;
+    font-weight: 900 !important;
+    padding: 2px 8px !important;
+}
+
+/* <!-- ------------FIRSTFOOTER------------ --> */
+
+
+
+/* <!-- ------------SECONDFOOTER------------ --> */
+
+.second_footer {
+    padding: 24px 24px 24px 0px;
+}
+
+.icons .fab {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.windows_link {
+    padding-left: 35px;
+}
+
+.windows img {
+    width: 20% !important;
+    border-radius: 5px !important;
+}
+
+.playstore img {
+    width: 24% !important;
+}
+
+.appstore img {
+    width: 21% !important;
+}
+
+/* <!-- ------------SECONDFOOTER------------ --> */
+
+
+/* <!-- ------------THIRDFOOTER------------ --> */
+
+.third_footer, 
+.third_footers {
+    padding: 24px;
+}
+
+.contact_text span {
+    margin-left: 1.5rem;
+}
+
+/* <!-- ------------THIRDFOOTER------------ --> */
+
+
+
+
+
+
+/* ------------Media Queries ------------ */
+
+@media screen and (max-width: 576px) {
+    .navbar-nav {
+        padding-top: 20px;
+    }
+
+    .hero_line h1 {
+        font-size: 22px;
+    }
+
+    .hero_line h2 {
+        font-size: 20px;
+    }
+
+    .windows img {
+        width: 23%;
+        border-radius: 5px;
+    }
+    
+    .playstore img {
+        width: 28%;
+    }
+    
+    .appstore img {
+        width: 25%;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) {}
+
+
+@media screen and (max-width: 768px) {
+    .space {
+        display: none;
+    }
+
+    .third_footer {
+        display: none;
+    }
+
+    
+    .link_head {
+        padding-bottom: 18px;
+        font-weight: 600;
+        margin-left: -15px;
+        font-size: 1.01rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .tut h3 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .tut img {
+        margin-left: 135px;
+    }
+
+    .cards {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-bottom: 48px;
+    }
+
+    .card_container h2 {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .link_head {
+        line-height: 18px;
+        font-size: 15px;
+        color: rgb(117, 117, 117);
+        padding-bottom: 1.3rem;
+    }
+
+    .links p {
+        margin-left: 0.5rem;
+        font-size: 15px;
+        margin-bottom: 0 !important;
+        margin-right: -20px;
+        padding: 12px 0px 12px 8px;
+        cursor: pointer;
+    }
+
+    .links svg:hover{
+        color: white;
+        stroke: white;
+    }
+
+    .red:hover {
+        color: white;
+        background-color: rgb(242, 48, 48);
+        border-radius: 4px;
+    }
+
+    .orange:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(255, 76, 35);
+    }
+
+    .purple:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(153, 102, 255);
+    }
+
+    .light-blue:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(15, 192, 197);
+    }
+
+    .blue:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(61, 153, 245);
+    }
+
+    .green:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(0, 204, 68);
+    }
+
+    .yellow:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(255, 159, 25);
+    }
+
+    .light-yellow:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(230, 215, 57);
+    }
+    
+    .electric-blue:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(73, 200, 242);
+    }
+
+    .light-green:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(116, 217, 65);
+    }
+
+    .dark-yellow:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(255, 121, 25);
+    }
+
+    .golden-yellow:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(235, 197, 12);
+    }
+
+    .light-purple:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(230, 103, 230);
+    }
+
+    .pink:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(255, 89, 172);
+    }
+
+    .light-red:hover {
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(255, 89, 117);
+    }
+
+    .third_footers {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .windows_link {
+        margin-left: 1.3rem;
+        margin-top: 1.5rem !important;
+    }
+
+    .windows img {
+        width: 15%;
+        border-radius: 9px;
+    }
+    
+    .playstore img {
+        width: 18%;
+    }
+    
+    .appstore img {
+        width: 17%;
+    }
+
+    
+#navbarSupportedContent{
+    background-color: white;
+    margin-top: 5px;
+    z-index: 1;
+    padding-bottom: 27px;
+}
+
+}
+
+
+@media screen and (min-width: 992px) {}
+
+
+@media screen and (max-width: 1200px) {}
+
+
+@media screen and (min-width: 1200px) {
+    .navbar-nav li {
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .input_png {
+        width: 82%;
+    }
+
+    .container-fluid {
+        width: 93% !important ;
+    }
+
+    .container {
+        width: 80% !important;
+    }
+
+    .icons {
+        padding-top: 17px;
+    }
+}
