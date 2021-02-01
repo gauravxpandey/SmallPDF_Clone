@@ -129,7 +129,7 @@ hr {
     display: inline-block;
     background: white;
     border-radius: 4px 0 0 4px;
-    padding: 16.5px 24px;
+    padding: 15px 24px;
     outline: none;
     -webkit-user-select: none;
     cursor: pointer;
@@ -139,6 +139,20 @@ hr {
 
 .custom-file-input:focus {
     outline: none;
+}
+
+.gallery {
+    display: none;
+}
+
+.gallery img {
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+
+.file-upload {
+    margin-right: 18px;
 }
 
 .converts {

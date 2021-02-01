@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/fs-cdn@0.1.0/index.min.js"></script>
@@ -92,7 +94,9 @@
                         <ellipse cx="27.7761" cy="20.5301" rx="2.32834" ry="2.232" fill="white"/>
                     </svg>
                     <div class="d-flex flex-row input_button">
-                        <input class="custom-file-input" name="inpFile" type="file" id="inpFile"  />
+                        <div class="file-upload">
+                            <input class="custom-file-input" name="inpFile" type="file" id="gallery-photo-add" multiple/>
+                        </div>
                         <div class="dropdown">
                             <a class="btn d-btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             </a>
@@ -142,8 +146,8 @@
                     <p class="textt">or drop JPGs here</p>
                 </div>
             </div>
-        <div class="image-preview" id="imagePreview">
-            <img src="" alt="ImagePreview" class="image-preview__preview" srcset="">
+        <div class="gallery" >
+
         </div>
         </div>
 

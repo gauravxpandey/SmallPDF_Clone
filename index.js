@@ -2,29 +2,30 @@ let imageurl
 
 // TO SHOW IMAGE PREVIEW
 
-const inputs = document.getElementsByClassName("input")
-const inpfile = document.getElementById("inpFile");
-const previewContainer = document.getElementById("imagePreview");
-const previewImage = document.getElementsByClassName("image-preview__preview");
+$(function() {
+  // Multiple images preview in browser
+  var imagesPreview = function(input, placeToInsertImagePreview) {
+      if (input.files) {
+          var filesAmount = input.files.length;
+          console.log(input.files)
+          console.log(filesAmount)
+          for (i = 0; i < filesAmount; i++) {
+              var reader = new FileReader();
+              reader.onload = function(event) {
+              imageurl = event.target.result;
+                  $($.parseHTML('<img>')).attr('src', imageurl).appendTo(placeToInsertImagePreview);
+              }
+              reader.readAsDataURL(input.files[i]);
+          }
+      }
+  };
 
-inpfile.addEventListener("change", function() {
-    const file = this.files[0];
-
-    if (file) {
-        const reader = new FileReader();
-
-        $('.input_png, .space, .first_line, .hero_line, .navbar-toggler, .navbar-nav, .navbar-text, .btn').css("display", "none")
-        $('.image-preview, .converts').css("display", "block")
-        $('#myElement').css("display", "none")
-
-        reader.addEventListener("load", function() {
-        console.log(this)
-        imageurl = this.result
-        $('.image-preview__preview').attr("src", imageurl);  
-    });
-
-        reader.readAsDataURL(file);
-    }
+  $('#gallery-photo-add').on('change', function() {
+      imagesPreview(this, 'div.gallery');
+      $('.input_png, .space, .first_line, .hero_line, .navbar-toggler, .navbar-nav, .navbar-text, .btn').css("display", "none")
+      $('.gallery, .converts').css("display", "block")
+      $('#myElement').css("display", "none")
+  });
 });
 
 
